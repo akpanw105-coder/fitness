@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "fitness-app",
+    "name": "FitTrack Pro",
     "slug": "fitness-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,7 +21,14 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png",
+      "name": "FitTrack Pro — Smart Workout Tracker",
+      "shortName": "FitTrack",
+      "description": "Track workouts, monitor progress, and crush your fitness goals with FitTrack Pro.",
+      "themeColor": "#E2FF3A",
+      "backgroundColor": "#0D0D0F",
+      "lang": "en"
     },
     "plugins": [
       "expo-router",
@@ -40,3 +47,4 @@
     }
   }
 }
+
